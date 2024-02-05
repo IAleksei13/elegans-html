@@ -1,0 +1,53 @@
+.section-subscribe-header__description {
+  max-width: 630px;
+  margin: 0 auto;
+  color: #999;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscribe-form {
+  margin: 0;
+  text-align: center;
+}
+
+.subscribe-form__input {
+  padding-left: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  width: 229px;
+  height: 42px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #f72464;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscribe-form__submit {
+  display: inline-block;
+  padding: 11px 30px 12px;
+  background: #f72464;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 4px;
+  border: none;
+
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.subscribe-form__submit:hover {
+  box-shadow: 0px 2px 15px 0px rgba(184, 13, 64, 0.671);
+  background: #f4185a;
+}

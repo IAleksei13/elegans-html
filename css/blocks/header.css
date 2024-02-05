@@ -1,0 +1,30 @@
+.header__row {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 670px;
+}
+
+.header__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #000;
+  font-weight: normal;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.header__text {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+  width: 599px;
+}
